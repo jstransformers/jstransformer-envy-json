@@ -1,0 +1,5 @@
+{
+  "name": "Hello World!",
+  "basicAuth": "$MY_APPLICATION",
+  "foo": "$FOO"
+}
