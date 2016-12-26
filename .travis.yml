@@ -2,6 +2,7 @@ language: node_js
 sudo: false
 
 node_js:
+<<<<<<< HEAD
   - "0.10"
   - "0.12"
   - "iojs"
@@ -10,6 +11,15 @@ after_success:
   - npm run coverage
   - npm i coveralls
   - cat ./coverage/lcov.info | coveralls
+=======
+  - "4"
+  - "6"
+
+after_success:
+  - npm run coverage
+  - npm i codecov
+  - codecov -f coverage/coverage.json
+>>>>>>> c3f5dea729824052d0e5c585d768cedeed935de5
 
 notifications:
   email:
