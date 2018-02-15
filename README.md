@@ -15,14 +15,14 @@
 ## API
 
 ```js
-var envy-json = require('jstransformer')(require('jstransformer-envy-json'));
+var envyjson = require('jstransformer')(require('jstransformer-envy-json'))
 
 var input = {
   "name": "Hello World!",
   "basicAuth": "$MY_APPLICATION"
 }
 
-envy-json.render(input).body
+envyjson.render(input).body
 //=> {"name": "Hello World"}
 ```
 
