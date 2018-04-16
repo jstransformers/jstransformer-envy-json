@@ -1,7 +1,5 @@
 # jstransformer-envy-json
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-envy-json.svg)](https://greenkeeper.io/)
-
 [ENVy JSON](http://github.com/zeke/envy-json) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-envy-json/master.svg)](https://travis-ci.org/jstransformers/jstransformer-envy-json)
